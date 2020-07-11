@@ -1,6 +1,7 @@
 from Controllers.ExempleController import Controller
 
 
-def screenOne():
-    toCall = Controller()
-    toCall.speakHello()
+class View(Controller):
+
+    def screenOne(self):
+        self.speakHello()

@@ -1,5 +1,7 @@
 from Models.ExempleModel import Model
 from Controllers.ExempleController import Controller
-from View.ExempleScreen import *
+from View.ExempleScreen import View
 
-screenOne()
+
+toCallScreenOne = View()
+toCallScreenOne.screenOne()

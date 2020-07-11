@@ -1,5 +1,3 @@
-
-
 class Model:
 
     def hello(self):
